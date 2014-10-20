@@ -1,0 +1,103 @@
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+#Visual Studio files
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+ipch/
+obj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+Ankh.NoLoad
+
+#MonoDevelop
+*.pidb
+*.userprefs
+
+#Tooling
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+*.sass-cache
+
+#Project files
+[Bb]uild/
+
+#Subversion files
+.svn
+
+# Office Temp Files
+~$*
+
+#NuGet
+packages/
+!packages/Microsoft.Office.js.1.0.0/
+!packages/repositories.config
+
+#Allow NuGet.exe (do not ignore)
+!NuGet.exe
+
+#ncrunch
+*ncrunch*
+*crunch*.local.xml
+
+# visual studio database projects
+*.dbmdl
+
+#Test files
+*.testsettings
+
+#Ignore email files delivered to specified pickup directory
+*.eml
+
+
+
+#Ignore WebDeploy publish profiles
+*.Publish.xml
+
+#Ignore Azure build csdef & Pubxml files
+ServiceDefinition.build.csdef
+*.azurePubxml
+
+#Allow ReSharper .DotSettings (for non-namespace-provider properties)
+!*.csproj.DotSettings
+
+#Ignore private folder
+/Private/
+
+#Ignore in out data folder
+/data
+
+#Ignore sqlite db (pack separately in download)
+/ext/db/sqlite
+
+#NCrunch
+#*.ncrunchproject
+
+#Chrome extension
+Loqu8.Capture.Chrome.zip
+*.csproj.orig
+*.csproj.orig
+#kdiff leftovers
+*.orig
